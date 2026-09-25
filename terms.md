@@ -89,4 +89,4 @@ know in the app. Continuing to use SwimHub after a change means you accept it.
 ## 9. Governing law
 
 These terms are governed by the laws of the United States and the State of
-[YOUR STATE].
+Delaware.
