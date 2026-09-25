@@ -69,18 +69,12 @@ report is resolved.
 ## Deleting your account
 
 You can delete your account from the Account screen. This removes your profile,
-posts, comments, replies, likes, follows, workouts and journal entries.
+posts, comments, replies, photos, likes, follows, workouts and journal entries —
+including the image files themselves, not just the posts that showed them.
 
-**Two exceptions:**
-
-- **Photo files.** Deleting your account removes your posts, so the photos stop
-  being visible in the app, but the underlying image files are not yet purged
-  from our storage. We are fixing this. If you want your photo files removed
-  now, email us and we will do it by hand.
-- **Moderation records.** If your content was reported, the record of that
-  report may be kept for up to 90 days after it was resolved, as described
-  above. We keep it so a pattern of behaviour cannot be erased by deleting an
-  account.
+**One exception:** if your content was reported, the record of that report may
+be kept for up to 90 days after it was resolved, as described above. We keep it
+so a pattern of behaviour cannot be erased by deleting an account.
 
 ## Children
 
