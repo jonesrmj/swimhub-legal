@@ -1,7 +1,6 @@
 # SwimHub Support
 
 Questions, problems or feedback? Email **[support@swimhub.fit](mailto:support@swimhub.fit)**.
-We usually reply within two working days.
 
 ## Common questions
 
