@@ -21,7 +21,7 @@ your account and we will delete it for you.
 ### I didn't get my verification or password reset email
 
 Check your spam or junk folder first — the email comes from
-**noreply@swimhub.fit**. If it isn't there, tap **Resend verification email**
+`noreply@swimhub.fit`. If it isn't there, tap **Resend verification email**
 on the sign-in screen. Still nothing? Email us.
 
 ### How do I report a post, comment or person?
