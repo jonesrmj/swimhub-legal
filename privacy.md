@@ -1,6 +1,6 @@
 # SwimHub Privacy Policy
 
-**Last updated: 2 November 2026**
+**Last updated: 3 November 2026**
 
 This explains what SwimHub collects, why, where it goes, and what happens to it.
 
@@ -141,6 +141,11 @@ entries from our servers — including the image files themselves, not just the
 posts that showed them. It then deletes your sign-in account and, if you used
 Sign in with Apple, tells Apple to revoke SwimHub's access.
 
+Before anything is deleted, you confirm it's you: with your password if you
+signed up with an email, or with Apple if you used Sign in with Apple. If
+deletion fails partway, the app tells you whether your account is still
+active, and trying again finishes the job.
+
 Some things are not removed, and you should know about them:
 
 - **Reports.** If your content was reported, the record of that report may be
@@ -149,12 +154,6 @@ Some things are not removed, and you should know about them:
   behaviour cannot be erased by deleting an account.
 - **Data on your iPhone.** Workouts, journal entries and cached images saved on
   your iPhone stay there until you delete the app.
-- **Your sign-in, in one case.** If you signed up with an email and password
-  and have not signed in recently, deletion can stop partway: your data is
-  removed but your sign-in (email and password) remains. Sign in again and
-  delete once more, or email us and we will finish it.
-- **Very active accounts.** If you posted a very large amount, some older posts
-  or comments may not be removed. Email us and we will remove any that remain.
 - **Logs and analytics.** Server error logs, which can include your account ID,
   are not deleted. Analytics data is not linked to your account, so it is not
   deleted either.
