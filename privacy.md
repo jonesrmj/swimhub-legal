@@ -1,6 +1,6 @@
 # SwimHub Privacy Policy
 
-**Last updated: 3 November 2026**
+**Last updated: 4 November 2026**
 
 This explains what SwimHub collects, why, where it goes, and what happens to it.
 
@@ -26,6 +26,7 @@ This explains what SwimHub collects, why, where it goes, and what happens to it.
 - Who you follow, and who you have blocked
 - Likes
 - Reports you make about other people's content
+- Feedback you send from the app — see [Feedback](#feedback) below
 
 **From Apple Health, if you allow it**
 
@@ -45,11 +46,13 @@ These services store or process your data on our behalf:
   username, bio), your profile photo, and analytics
 - **Amazon Web Services** — your profile, posts, comments, replies, likes,
   follows, blocks, photos you post, workouts, journal entries, reports and error
-  logs. Stored in the United States.
+  logs. Stored in the United States. Amazon also sends us the feedback you
+  submit in the app as an email.
 - **Apple** — if you sign in with Apple, Apple handles that sign-in
 - **OpenAI** — the details you type when you ask SwimHub to generate a workout
   (see [AI-generated workouts](#ai-generated-workouts))
-- **Cloudflare** — delivers email you send to support@swimhub.fit
+- **Cloudflare** — delivers email you send to support@swimhub.fit, including
+  feedback sent from the app
 
 We do not sell your data, and we do not use it for advertising.
 
@@ -95,6 +98,23 @@ It collects:
 We do not connect analytics to your SwimHub account, name or email, and we do
 not use it for advertising or to track you across other companies' apps and
 websites.
+
+## Feedback
+
+When you use **Submit Feedback** on the Account screen, the app sends us an
+email containing:
+
+- The kind of feedback, and the message you write
+- Any images you attach — up to four. Before sending, check they don't show
+  anything you don't want to share.
+- Your username, account ID and email address, so we know who it's from and
+  can reply
+- Your app version, iOS version and device model, to help us find bugs
+
+It is delivered to our support inbox and treated like any other email you send
+us. It is not stored on our servers. We keep only a count of how many times you
+have sent feedback today, to limit each account to five a day, and that count
+is deleted after two days.
 
 ## What is private and what is public
 
@@ -154,6 +174,8 @@ Some things are not removed, and you should know about them:
   behaviour cannot be erased by deleting an account.
 - **Data on your iPhone.** Workouts, journal entries and cached images saved on
   your iPhone stay there until you delete the app.
+- **Feedback and email.** Feedback you sent and emails you exchanged with us
+  stay in our support inbox. Email us if you want them deleted.
 - **Logs and analytics.** Server error logs, which can include your account ID,
   are not deleted. Analytics data is not linked to your account, so it is not
   deleted either.
