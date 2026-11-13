@@ -122,12 +122,12 @@ is deleted after two days.
 
 ## Notifications
 
-If you allow notifications, SwimHub tells you when someone:
+If you allow notifications, SwimHub tells you when:
 
-- likes your post, comment or reply
-- follows you
-- comments on your post, or replies to your comment
-- you follow shares a new post
+- someone likes your post, comment or reply
+- someone follows you
+- someone comments on your post, or replies to your comment
+- someone you follow shares a post
 
 A notification shows the other person's username, and for comments, replies
 and new posts, the start of what they wrote. It is not sent for your own
