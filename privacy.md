@@ -1,6 +1,6 @@
 # SwimHub Privacy Policy
 
-**Last updated: 4 November 2026**
+**Last updated: 12 November 2026**
 
 This explains what SwimHub collects, why, where it goes, and what happens to it.
 
@@ -27,6 +27,8 @@ This explains what SwimHub collects, why, where it goes, and what happens to it.
 - Likes
 - Reports you make about other people's content
 - Feedback you send from the app — see [Feedback](#feedback) below
+- A notification token for your iPhone, if you allow notifications — see
+  [Notifications](#notifications) below
 
 **From Apple Health, if you allow it**
 
@@ -43,12 +45,14 @@ See [Apple Health data](#apple-health-data) below.
 These services store or process your data on our behalf:
 
 - **Firebase (Google)** — your account and sign-in, your profile (name, email,
-  username, bio), your profile photo, and analytics
+  username, bio), your profile photo, analytics, and sending notifications
+  (Firebase Cloud Messaging)
 - **Amazon Web Services** — your profile, posts, comments, replies, likes,
-  follows, blocks, photos you post, workouts, journal entries, reports and error
-  logs. Stored in the United States. Amazon also sends us the feedback you
-  submit in the app as an email.
-- **Apple** — if you sign in with Apple, Apple handles that sign-in
+  follows, blocks, photos you post, workouts, journal entries, reports,
+  notification tokens and error logs. Stored in the United States. Amazon also
+  sends us the feedback you submit in the app as an email.
+- **Apple** — if you sign in with Apple, Apple handles that sign-in. Apple also
+  delivers notifications to your iPhone.
 - **OpenAI** — the details you type when you ask SwimHub to generate a workout
   (see [AI-generated workouts](#ai-generated-workouts))
 - **Cloudflare** — delivers email you send to support@swimhub.fit, including
@@ -116,6 +120,33 @@ us. It is not stored on our servers. We keep only a count of how many times you
 have sent feedback today, to limit each account to five a day, and that count
 is deleted after two days.
 
+## Notifications
+
+If you allow notifications, SwimHub tells you when someone:
+
+- likes your post, comment or reply
+- follows you
+- comments on your post, or replies to your comment
+- you follow shares a new post
+
+A notification shows the other person's username, and for comments, replies
+and new posts, the start of what they wrote. It is not sent for your own
+actions, or between people where either has blocked the other.
+
+To send them, we store a token that identifies your iPhone to Apple's
+notification service, linked to your account. Each notification is sent
+through Firebase Cloud Messaging (Google) to Apple, which delivers it to your
+iPhone. We don't use notifications for advertising or marketing.
+
+To avoid notifying you twice about the same like or follow, we keep a record
+that you were notified, including the other person's account ID, for 30 days.
+
+You can turn notifications off at any time with **Notifications** on the
+Account screen, which deletes your iPhone's token from our servers, or in the
+iPhone Settings app under Notifications › SwimHub. Signing out also stops
+notifications to that iPhone. What a notification shows on your lock screen is
+controlled by your iPhone's notification preview setting.
+
 ## What is private and what is public
 
 **Public** — anyone can see it, with or without a SwimHub account:
@@ -156,9 +187,9 @@ after a report is resolved.
 ## Deleting your account
 
 You can delete your account from the Account screen. This removes your
-profile, posts, comments, replies, photos, likes, follows, workouts and journal
-entries from our servers — including the image files themselves, not just the
-posts that showed them. It then deletes your sign-in account and, if you used
+profile, posts, comments, replies, photos, likes, follows, workouts, journal
+entries and notification tokens from our servers — including the image files
+themselves, not just the posts that showed them. It then deletes your sign-in account and, if you used
 Sign in with Apple, tells Apple to revoke SwimHub's access.
 
 Before anything is deleted, you confirm it's you: with your password if you
@@ -172,6 +203,8 @@ Some things are not removed, and you should know about them:
   kept for up to 90 days after it was resolved, as described above. Reports
   you made are also kept until they expire. We keep them so a pattern of
   behaviour cannot be erased by deleting an account.
+- **Notification records.** Records that someone was notified about your likes
+  or follows, which include your account ID, expire within 30 days.
 - **Data on your iPhone.** Workouts, journal entries and cached images saved on
   your iPhone stay there until you delete the app.
 - **Feedback and email.** Feedback you sent and emails you exchanged with us
@@ -195,6 +228,8 @@ we will delete it.
 - **Stop sharing Apple Health data** — iPhone Settings › Health › Data Access
   & Devices
 - **Stop seeing someone** — block them from their profile or their content
+- **Turn off notifications** — Account › Notifications, or iPhone Settings ›
+  Notifications › SwimHub
 
 Depending on where you live you may have additional rights over your data.
 Email us and we will help.
