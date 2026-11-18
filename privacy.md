@@ -1,6 +1,6 @@
 # SwimHub Privacy Policy
 
-**Last updated: 12 November 2026**
+**Last updated: 18 November 2026**
 
 This explains what SwimHub collects, why, where it goes, and what happens to it.
 
@@ -210,8 +210,9 @@ Some things are not removed, and you should know about them:
 - **Feedback and email.** Feedback you sent and emails you exchanged with us
   stay in our support inbox. Email us if you want them deleted.
 - **Logs and analytics.** Server error logs, which can include your account ID,
-  are not deleted. Analytics data is not linked to your account, so it is not
-  deleted either.
+  are not removed when you delete your account, but all server logs are deleted
+  automatically after 30 days. Analytics data is not linked to your account, so
+  it is not deleted when you delete your account.
 
 ## Children
 
